@@ -7,15 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		158D91811EB805930025D876 /* PassengerFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D91801EB805930025D876 /* PassengerFilterViewController.m */; };
+		158D91841EB81BAC0025D876 /* DriverFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D91831EB81BAC0025D876 /* DriverFilterViewController.m */; };
+		158D91871EB83EB20025D876 /* passengerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D91861EB83EB20025D876 /* passengerTableViewCell.m */; };
+		158D918A1EB84E640025D876 /* driverTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D91891EB84E640025D876 /* driverTableViewCell.m */; };
+		158D91AB1EBA595E0025D876 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 158D91AA1EBA595E0025D876 /* GoogleService-Info.plist */; };
+		158D91AF1EBA79AE0025D876 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D91AE1EBA79AE0025D876 /* NotificationViewController.m */; };
+		158D91B11EBA7A080025D876 /* Push Notifications-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 158D91B01EBA7A080025D876 /* Push Notifications-50.png */; };
+		158D91B71EBB70130025D876 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D91B61EBB70130025D876 /* ChatViewController.m */; };
+		158D91BC1EBB8B610025D876 /* MyProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D91BB1EBB8B610025D876 /* MyProfileViewController.m */; };
+		158D91BF1EBC10C30025D876 /* MyProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D91BE1EBC10C30025D876 /* MyProfileTableViewCell.m */; };
+		158D91C11EBC13720025D876 /* Message-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 158D91C01EBC13720025D876 /* Message-40.png */; };
+		158D91C41EBCD14E0025D876 /* HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D91C31EBCD14E0025D876 /* HCSStarRatingView.m */; };
+		158D91C81EBD231A0025D876 /* RatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D91C71EBD231A0025D876 /* RatingViewController.m */; };
+		158D91CB1EBFA49F0025D876 /* FriendListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D91CA1EBFA49F0025D876 /* FriendListViewController.m */; };
+		158D91CE1EBFA52C0025D876 /* FriendListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D91CD1EBFA52C0025D876 /* FriendListTableViewCell.m */; };
+		158D91D01EC00A770025D876 /* Happy-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 158D91CF1EC00A770025D876 /* Happy-50.png */; };
+		158D91D21EC00A7E0025D876 /* Expired-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 158D91D11EC00A7E0025D876 /* Expired-40.png */; };
+		158D91D41EC00A880025D876 /* Checked-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 158D91D31EC00A880025D876 /* Checked-50.png */; };
+		158D91D61EC0592F0025D876 /* Enter-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 158D91D51EC0592F0025D876 /* Enter-48.png */; };
+		158D91D81EC0C8A60025D876 /* Octocat.png in Resources */ = {isa = PBXBuildFile; fileRef = 158D91D71EC0C8A60025D876 /* Octocat.png */; };
 		15C6CED31EB2853000590E32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6CED21EB2853000590E32 /* main.m */; };
 		15C6CED61EB2853000590E32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6CED51EB2853000590E32 /* AppDelegate.m */; };
 		15C6CED91EB2853000590E32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6CED81EB2853000590E32 /* ViewController.m */; };
 		15C6CEDC1EB2853000590E32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C6CEDA1EB2853000590E32 /* Main.storyboard */; };
 		15C6CEDE1EB2853000590E32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C6CEDD1EB2853000590E32 /* Assets.xcassets */; };
 		15C6CEE11EB2853000590E32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C6CEDF1EB2853000590E32 /* LaunchScreen.storyboard */; };
+		15C6CEF21EB28D4E00590E32 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6CEF11EB28D4E00590E32 /* SignInViewController.m */; };
+		15C6CEFA1EB2E37E00590E32 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C6CEF91EB2E37E00590E32 /* background.png */; };
+		15F13D0E1EB5308E00F28553 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F13D0D1EB5308E00F28553 /* SignUpViewController.m */; };
+		15F13D111EB55D2A00F28553 /* CarpoolListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F13D101EB55D2A00F28553 /* CarpoolListViewController.m */; };
+		15F13D151EB55DB200F28553 /* CarpoolListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F13D141EB55DB200F28553 /* CarpoolListTableViewCell.m */; };
+		15F13D1F1EB5614000F28553 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F13D1E1EB5614000F28553 /* PostViewController.m */; };
+		15F13D211EB566F900F28553 /* Clock-104.png in Resources */ = {isa = PBXBuildFile; fileRef = 15F13D201EB566F900F28553 /* Clock-104.png */; };
+		15F13D241EB56D3300F28553 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F13D231EB56D3300F28553 /* ScheduleViewController.m */; };
+		15F13D261EB5955800F28553 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F13D251EB5955800F28553 /* MapKit.framework */; };
+		15F13D3A1EB78F3F00F28553 /* passenegerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F13D391EB78F3F00F28553 /* passenegerViewController.m */; };
+		15F13D401EB79E0300F28553 /* RequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F13D3F1EB79E0300F28553 /* RequestViewController.m */; };
+		958A6DD60C3D0537EF394B06 /* libPods-Carpool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A442309CF4DC956C18A2A64C /* libPods-Carpool.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		158D917F1EB805930025D876 /* PassengerFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassengerFilterViewController.h; sourceTree = "<group>"; };
+		158D91801EB805930025D876 /* PassengerFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassengerFilterViewController.m; sourceTree = "<group>"; };
+		158D91821EB81BAC0025D876 /* DriverFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverFilterViewController.h; sourceTree = "<group>"; };
+		158D91831EB81BAC0025D876 /* DriverFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverFilterViewController.m; sourceTree = "<group>"; };
+		158D91851EB83EB20025D876 /* passengerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = passengerTableViewCell.h; sourceTree = "<group>"; };
+		158D91861EB83EB20025D876 /* passengerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = passengerTableViewCell.m; sourceTree = "<group>"; };
+		158D91881EB84E640025D876 /* driverTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = driverTableViewCell.h; sourceTree = "<group>"; };
+		158D91891EB84E640025D876 /* driverTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = driverTableViewCell.m; sourceTree = "<group>"; };
+		158D91A91EB9915A0025D876 /* Carpool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Carpool.entitlements; sourceTree = "<group>"; };
+		158D91AA1EBA595E0025D876 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		158D91AD1EBA79AE0025D876 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		158D91AE1EBA79AE0025D876 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		158D91B01EBA7A080025D876 /* Push Notifications-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Push Notifications-50.png"; sourceTree = "<group>"; };
+		158D91B51EBB70130025D876 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		158D91B61EBB70130025D876 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		158D91BA1EBB8B610025D876 /* MyProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProfileViewController.h; sourceTree = "<group>"; };
+		158D91BB1EBB8B610025D876 /* MyProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProfileViewController.m; sourceTree = "<group>"; };
+		158D91BD1EBC10C30025D876 /* MyProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProfileTableViewCell.h; sourceTree = "<group>"; };
+		158D91BE1EBC10C30025D876 /* MyProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProfileTableViewCell.m; sourceTree = "<group>"; };
+		158D91C01EBC13720025D876 /* Message-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Message-40.png"; sourceTree = "<group>"; };
+		158D91C21EBCD14E0025D876 /* HCSStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSStarRatingView.h; sourceTree = "<group>"; };
+		158D91C31EBCD14E0025D876 /* HCSStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSStarRatingView.m; sourceTree = "<group>"; };
+		158D91C61EBD231A0025D876 /* RatingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingViewController.h; sourceTree = "<group>"; };
+		158D91C71EBD231A0025D876 /* RatingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingViewController.m; sourceTree = "<group>"; };
+		158D91C91EBFA49F0025D876 /* FriendListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendListViewController.h; sourceTree = "<group>"; };
+		158D91CA1EBFA49F0025D876 /* FriendListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendListViewController.m; sourceTree = "<group>"; };
+		158D91CC1EBFA52C0025D876 /* FriendListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendListTableViewCell.h; sourceTree = "<group>"; };
+		158D91CD1EBFA52C0025D876 /* FriendListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendListTableViewCell.m; sourceTree = "<group>"; };
+		158D91CF1EC00A770025D876 /* Happy-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Happy-50.png"; sourceTree = "<group>"; };
+		158D91D11EC00A7E0025D876 /* Expired-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Expired-40.png"; sourceTree = "<group>"; };
+		158D91D31EC00A880025D876 /* Checked-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checked-50.png"; sourceTree = "<group>"; };
+		158D91D51EC0592F0025D876 /* Enter-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Enter-48.png"; sourceTree = "<group>"; };
+		158D91D71EC0C8A60025D876 /* Octocat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Octocat.png; sourceTree = "<group>"; };
 		15C6CECE1EB2853000590E32 /* Carpool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carpool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C6CED21EB2853000590E32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15C6CED41EB2853000590E32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +91,28 @@
 		15C6CEDD1EB2853000590E32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15C6CEE01EB2853000590E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15C6CEE21EB2853000590E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C6CEF01EB28D4E00590E32 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		15C6CEF11EB28D4E00590E32 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		15C6CEF91EB2E37E00590E32 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		15F13D0C1EB5308E00F28553 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		15F13D0D1EB5308E00F28553 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		15F13D0F1EB55D2A00F28553 /* CarpoolListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarpoolListViewController.h; sourceTree = "<group>"; };
+		15F13D101EB55D2A00F28553 /* CarpoolListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarpoolListViewController.m; sourceTree = "<group>"; };
+		15F13D131EB55DB200F28553 /* CarpoolListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarpoolListTableViewCell.h; sourceTree = "<group>"; };
+		15F13D141EB55DB200F28553 /* CarpoolListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarpoolListTableViewCell.m; sourceTree = "<group>"; };
+		15F13D1D1EB5614000F28553 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		15F13D1E1EB5614000F28553 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		15F13D201EB566F900F28553 /* Clock-104.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clock-104.png"; sourceTree = "<group>"; };
+		15F13D221EB56D3300F28553 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		15F13D231EB56D3300F28553 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		15F13D251EB5955800F28553 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		15F13D381EB78F3F00F28553 /* passenegerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = passenegerViewController.h; sourceTree = "<group>"; };
+		15F13D391EB78F3F00F28553 /* passenegerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = passenegerViewController.m; sourceTree = "<group>"; };
+		15F13D3E1EB79E0300F28553 /* RequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewController.h; sourceTree = "<group>"; };
+		15F13D3F1EB79E0300F28553 /* RequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewController.m; sourceTree = "<group>"; };
+		89900478ED2B0A5FCEA9831F /* Pods-Carpool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carpool.release.xcconfig"; path = "Pods/Target Support Files/Pods-Carpool/Pods-Carpool.release.xcconfig"; sourceTree = "<group>"; };
+		A442309CF4DC956C18A2A64C /* libPods-Carpool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Carpool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB87B516D91817347E15B279 /* Pods-Carpool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carpool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Carpool/Pods-Carpool.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +120,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15F13D261EB5955800F28553 /* MapKit.framework in Frameworks */,
+				958A6DD60C3D0537EF394B06 /* libPods-Carpool.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		158D91AC1EBA796B0025D876 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				158D91AD1EBA79AE0025D876 /* NotificationViewController.h */,
+				158D91AE1EBA79AE0025D876 /* NotificationViewController.m */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		158D91B81EBB70190025D876 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				158D91C91EBFA49F0025D876 /* FriendListViewController.h */,
+				158D91CA1EBFA49F0025D876 /* FriendListViewController.m */,
+				158D91CC1EBFA52C0025D876 /* FriendListTableViewCell.h */,
+				158D91CD1EBFA52C0025D876 /* FriendListTableViewCell.m */,
+				158D91B51EBB70130025D876 /* ChatViewController.h */,
+				158D91B61EBB70130025D876 /* ChatViewController.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		158D91B91EBB8B280025D876 /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				158D91BA1EBB8B610025D876 /* MyProfileViewController.h */,
+				158D91BB1EBB8B610025D876 /* MyProfileViewController.m */,
+				158D91BD1EBC10C30025D876 /* MyProfileTableViewCell.h */,
+				158D91BE1EBC10C30025D876 /* MyProfileTableViewCell.m */,
+			);
+			name = MyProfile;
+			sourceTree = "<group>";
+		};
+		158D91C51EBD22D60025D876 /* Rating */ = {
+			isa = PBXGroup;
+			children = (
+				158D91C21EBCD14E0025D876 /* HCSStarRatingView.h */,
+				158D91C31EBCD14E0025D876 /* HCSStarRatingView.m */,
+				158D91C61EBD231A0025D876 /* RatingViewController.h */,
+				158D91C71EBD231A0025D876 /* RatingViewController.m */,
+			);
+			name = Rating;
+			sourceTree = "<group>";
+		};
 		15C6CEC51EB2853000590E32 = {
 			isa = PBXGroup;
 			children = (
 				15C6CED01EB2853000590E32 /* Carpool */,
 				15C6CECF1EB2853000590E32 /* Products */,
+				25091FD0D39862F9AAB4A621 /* Pods */,
+				A5BC31011780B31D456C183B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +193,28 @@
 		15C6CED01EB2853000590E32 /* Carpool */ = {
 			isa = PBXGroup;
 			children = (
+				158D91A91EB9915A0025D876 /* Carpool.entitlements */,
+				15C6CEEA1EB2857500590E32 /* image */,
 				15C6CED41EB2853000590E32 /* AppDelegate.h */,
 				15C6CED51EB2853000590E32 /* AppDelegate.m */,
 				15C6CED71EB2853000590E32 /* ViewController.h */,
 				15C6CED81EB2853000590E32 /* ViewController.m */,
+				15C6CEF01EB28D4E00590E32 /* SignInViewController.h */,
+				15C6CEF11EB28D4E00590E32 /* SignInViewController.m */,
+				15F13D0C1EB5308E00F28553 /* SignUpViewController.h */,
+				15F13D0D1EB5308E00F28553 /* SignUpViewController.m */,
+				15F13D2E1EB7805600F28553 /* Passeneger */,
+				15F13D121EB55D8C00F28553 /* CarpoolList */,
+				15F13D161EB55DDB00F28553 /* Driver */,
+				158D91AC1EBA796B0025D876 /* Notification */,
+				158D91B91EBB8B280025D876 /* MyProfile */,
+				158D91B81EBB70190025D876 /* Chat */,
+				158D91C51EBD22D60025D876 /* Rating */,
 				15C6CEDA1EB2853000590E32 /* Main.storyboard */,
 				15C6CEDD1EB2853000590E32 /* Assets.xcassets */,
 				15C6CEDF1EB2853000590E32 /* LaunchScreen.storyboard */,
 				15C6CEE21EB2853000590E32 /* Info.plist */,
+				158D91AA1EBA595E0025D876 /* GoogleService-Info.plist */,
 				15C6CED11EB2853000590E32 /* Supporting Files */,
 			);
 			path = Carpool;
@@ -79,6 +228,81 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		15C6CEEA1EB2857500590E32 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				158D91D71EC0C8A60025D876 /* Octocat.png */,
+				158D91D51EC0592F0025D876 /* Enter-48.png */,
+				158D91D31EC00A880025D876 /* Checked-50.png */,
+				158D91D11EC00A7E0025D876 /* Expired-40.png */,
+				158D91CF1EC00A770025D876 /* Happy-50.png */,
+				158D91C01EBC13720025D876 /* Message-40.png */,
+				158D91B01EBA7A080025D876 /* Push Notifications-50.png */,
+				15F13D201EB566F900F28553 /* Clock-104.png */,
+				15C6CEF91EB2E37E00590E32 /* background.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		15F13D121EB55D8C00F28553 /* CarpoolList */ = {
+			isa = PBXGroup;
+			children = (
+				15F13D0F1EB55D2A00F28553 /* CarpoolListViewController.h */,
+				15F13D101EB55D2A00F28553 /* CarpoolListViewController.m */,
+				15F13D131EB55DB200F28553 /* CarpoolListTableViewCell.h */,
+				15F13D141EB55DB200F28553 /* CarpoolListTableViewCell.m */,
+			);
+			name = CarpoolList;
+			sourceTree = "<group>";
+		};
+		15F13D161EB55DDB00F28553 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				15F13D221EB56D3300F28553 /* ScheduleViewController.h */,
+				15F13D231EB56D3300F28553 /* ScheduleViewController.m */,
+				15F13D1D1EB5614000F28553 /* PostViewController.h */,
+				15F13D1E1EB5614000F28553 /* PostViewController.m */,
+				158D91821EB81BAC0025D876 /* DriverFilterViewController.h */,
+				158D91831EB81BAC0025D876 /* DriverFilterViewController.m */,
+				158D91881EB84E640025D876 /* driverTableViewCell.h */,
+				158D91891EB84E640025D876 /* driverTableViewCell.m */,
+			);
+			name = Driver;
+			sourceTree = "<group>";
+		};
+		15F13D2E1EB7805600F28553 /* Passeneger */ = {
+			isa = PBXGroup;
+			children = (
+				15F13D381EB78F3F00F28553 /* passenegerViewController.h */,
+				15F13D391EB78F3F00F28553 /* passenegerViewController.m */,
+				15F13D3E1EB79E0300F28553 /* RequestViewController.h */,
+				15F13D3F1EB79E0300F28553 /* RequestViewController.m */,
+				158D917F1EB805930025D876 /* PassengerFilterViewController.h */,
+				158D91801EB805930025D876 /* PassengerFilterViewController.m */,
+				158D91851EB83EB20025D876 /* passengerTableViewCell.h */,
+				158D91861EB83EB20025D876 /* passengerTableViewCell.m */,
+			);
+			name = Passeneger;
+			sourceTree = "<group>";
+		};
+		25091FD0D39862F9AAB4A621 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB87B516D91817347E15B279 /* Pods-Carpool.debug.xcconfig */,
+				89900478ED2B0A5FCEA9831F /* Pods-Carpool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5BC31011780B31D456C183B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15F13D251EB5955800F28553 /* MapKit.framework */,
+				A442309CF4DC956C18A2A64C /* libPods-Carpool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +310,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15C6CEE51EB2853000590E32 /* Build configuration list for PBXNativeTarget "Carpool" */;
 			buildPhases = (
+				896298BBB6AE3B254BAFF2F6 /* [CP] Check Pods Manifest.lock */,
 				15C6CECA1EB2853000590E32 /* Sources */,
 				15C6CECB1EB2853000590E32 /* Frameworks */,
 				15C6CECC1EB2853000590E32 /* Resources */,
+				EEDDE61DCBF0B7EE1BD3D34C /* [CP] Embed Pods Frameworks */,
+				A776E32AE041E50132511CC0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,7 +337,13 @@
 				TargetAttributes = {
 					15C6CECD1EB2853000590E32 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = RQAE768Z9N;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -138,21 +371,99 @@
 			buildActionMask = 2147483647;
 			files = (
 				15C6CEE11EB2853000590E32 /* LaunchScreen.storyboard in Resources */,
+				15C6CEFA1EB2E37E00590E32 /* background.png in Resources */,
+				158D91D61EC0592F0025D876 /* Enter-48.png in Resources */,
+				158D91D81EC0C8A60025D876 /* Octocat.png in Resources */,
 				15C6CEDE1EB2853000590E32 /* Assets.xcassets in Resources */,
 				15C6CEDC1EB2853000590E32 /* Main.storyboard in Resources */,
+				158D91D01EC00A770025D876 /* Happy-50.png in Resources */,
+				158D91D21EC00A7E0025D876 /* Expired-40.png in Resources */,
+				158D91B11EBA7A080025D876 /* Push Notifications-50.png in Resources */,
+				15F13D211EB566F900F28553 /* Clock-104.png in Resources */,
+				158D91AB1EBA595E0025D876 /* GoogleService-Info.plist in Resources */,
+				158D91C11EBC13720025D876 /* Message-40.png in Resources */,
+				158D91D41EC00A880025D876 /* Checked-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		896298BBB6AE3B254BAFF2F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A776E32AE041E50132511CC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Carpool/Pods-Carpool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEDDE61DCBF0B7EE1BD3D34C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Carpool/Pods-Carpool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		15C6CECA1EB2853000590E32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C6CEF21EB28D4E00590E32 /* SignInViewController.m in Sources */,
+				15F13D151EB55DB200F28553 /* CarpoolListTableViewCell.m in Sources */,
+				15F13D0E1EB5308E00F28553 /* SignUpViewController.m in Sources */,
+				158D91C81EBD231A0025D876 /* RatingViewController.m in Sources */,
+				158D91811EB805930025D876 /* PassengerFilterViewController.m in Sources */,
+				158D91871EB83EB20025D876 /* passengerTableViewCell.m in Sources */,
+				158D91BF1EBC10C30025D876 /* MyProfileTableViewCell.m in Sources */,
+				158D91C41EBCD14E0025D876 /* HCSStarRatingView.m in Sources */,
+				158D918A1EB84E640025D876 /* driverTableViewCell.m in Sources */,
 				15C6CED91EB2853000590E32 /* ViewController.m in Sources */,
+				158D91B71EBB70130025D876 /* ChatViewController.m in Sources */,
+				158D91BC1EBB8B610025D876 /* MyProfileViewController.m in Sources */,
+				158D91CE1EBFA52C0025D876 /* FriendListTableViewCell.m in Sources */,
+				15F13D1F1EB5614000F28553 /* PostViewController.m in Sources */,
+				158D91841EB81BAC0025D876 /* DriverFilterViewController.m in Sources */,
 				15C6CED61EB2853000590E32 /* AppDelegate.m in Sources */,
 				15C6CED31EB2853000590E32 /* main.m in Sources */,
+				158D91CB1EBFA49F0025D876 /* FriendListViewController.m in Sources */,
+				15F13D401EB79E0300F28553 /* RequestViewController.m in Sources */,
+				15F13D3A1EB78F3F00F28553 /* passenegerViewController.m in Sources */,
+				158D91AF1EBA79AE0025D876 /* NotificationViewController.m in Sources */,
+				15F13D241EB56D3300F28553 /* ScheduleViewController.m in Sources */,
+				15F13D111EB55D2A00F28553 /* CarpoolListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,23 +583,35 @@
 		};
 		15C6CEE61EB2853000590E32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB87B516D91817347E15B279 /* Pods-Carpool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Carpool/Carpool.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RQAE768Z9N;
 				INFOPLIST_FILE = Carpool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rjt.Carpool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RebeccaWeng.Carpool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		15C6CEE71EB2853000590E32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89900478ED2B0A5FCEA9831F /* Pods-Carpool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Carpool/Carpool.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RQAE768Z9N;
 				INFOPLIST_FILE = Carpool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rjt.Carpool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RebeccaWeng.Carpool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -311,6 +634,7 @@
 				15C6CEE71EB2853000590E32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

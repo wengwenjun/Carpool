@@ -1,0 +1,1 @@
+../../../GeoFire/GeoFire/Implementation/GeoFire+Private.h

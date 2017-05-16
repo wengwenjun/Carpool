@@ -1,0 +1,1 @@
+../../../GeoFire/GeoFire/API/GFQuery.h

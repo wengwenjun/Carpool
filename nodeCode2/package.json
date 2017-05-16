@@ -1,0 +1,15 @@
+{
+  "name": "firebasepush",
+  "version": "1.0.0",
+  "description": "For sending one to one push notifications",
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^4.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ron Ramirez",
+  "license": "ISC"
+}

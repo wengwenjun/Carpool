@@ -1,0 +1,1 @@
+../../../GeoFire/GeoFire/Implementation/GFGeoHash.h

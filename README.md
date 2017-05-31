@@ -29,17 +29,17 @@ The process is fairly simple. The app will only have one module that works as bo
 		●  On selecting a carpool, a confirmation message is sent out to the driver. 
 		●  Once a ride has been established, the driver and rider can chat from within the app
  # Home Screen
- <img src="https://github.com/wengwenjun/Carpool/blob/master/Home%20screen.png" width="300" height = "400">
+ <img src="https://github.com/wengwenjun/Carpool/blob/master/Home%20screen.png" width="300" height = "450">
  # Request A Ride
-  <img src="https://github.com/wengwenjun/Carpool/blob/master/Request%20A%20Carpool.png" width="300" height = "400">
+  <img src="https://github.com/wengwenjun/Carpool/blob/master/Request%20A%20Carpool.png" width="300" height = "450">
 # Post A Ride
-  <img src="https://github.com/wengwenjun/Carpool/blob/master/post%20a%20ride.png" height = "400">
+  <img src="https://github.com/wengwenjun/Carpool/blob/master/post%20a%20ride.png" height = "450">
 # Notification
-  <img src="https://github.com/wengwenjun/Carpool/blob/master/Notification%20.png" height = "400">
+  <img src="https://github.com/wengwenjun/Carpool/blob/master/Notification%20.png" height = "450">
 # Chat
-  <img src="https://github.com/wengwenjun/Carpool/blob/master/Chat%20.png" height = "400">
+  <img src="https://github.com/wengwenjun/Carpool/blob/master/Chat%20.png" height = "450">
 # Rate
-  <img src="https://github.com/wengwenjun/Carpool/blob/master/Rate.png" height = "400">
+  <img src="https://github.com/wengwenjun/Carpool/blob/master/Rate.png" height = "450">
 
 
 
